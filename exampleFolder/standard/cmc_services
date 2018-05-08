@@ -1,0 +1,7 @@
+dse[service]:on
+datastax-agent[service]:on
+firewalld[systemctl]:off
+consul[systemctl]:on
+consul-template[systemctl]:on
+clm[systemctl]:on
+chronyd[systemctl]:on

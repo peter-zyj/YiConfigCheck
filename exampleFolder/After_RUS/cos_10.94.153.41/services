@@ -1,0 +1,10 @@
+cserver:active (exited)
+firewalld:active (running)
+cassandra:Not Exist::b' systemctl status cassandra\r\nUnit cassandra.service could not be found.\r\n\x1b]0;root@utah41:~'
+cosd:active (running)
+chronyd:active (running)
+td-agent:inactive (dead)
+consul:active (running)
+consul-template:active (running)
+syslog-ng:active (running)
+clm:inactive (dead)

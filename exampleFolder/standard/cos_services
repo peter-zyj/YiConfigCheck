@@ -1,0 +1,11 @@
+cserver:on
+firewalld[centos-7]:on
+cassandra:off
+cosd:on
+chronyd[centos-7]:on
+ntpd[centos-6]:on
+td-agent:off
+consul:on
+consul-template:on
+syslog-ng:on
+clm:off

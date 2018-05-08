@@ -1,0 +1,7 @@
+cassandra.yaml::/etc/dse/cassandra/.
+cassandra-rackdc.properties::/etc/dse/cassandra/.
+cassandra-env.sh::/etc/dse/cassandra/.
+chrony.conf::/etc/.
+hosts::/etc/.
+network::/etc/sysconfig/.
+consul.json::/etc/consul/.

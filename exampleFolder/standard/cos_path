@@ -1,0 +1,9 @@
+setupfile::/arroyo/test/.
+RemoteServers::/arroyo/test/.
+subnettable::/arroyo/test/.
+cosd.conf::/etc/.
+consul.json::/etc/consul/.
+chrony.conf[centos-7]::/etc/.
+ntp.conf[centos-6]::/etc/.
+public.xml[centos-7]::/etc/firewalld/zones/.
+cassandra.yaml[onbox]::/etc/cassandra/conf/.

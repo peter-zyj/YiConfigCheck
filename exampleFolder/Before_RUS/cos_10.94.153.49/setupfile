@@ -1,0 +1,34 @@
+serverid 49
+groupid 1
+arrayid 1
+
+streamer 0 vault 1 cache 0
+
+bypass_isacheck 1
+cos 1
+
+enic adapters: maxrate 9850
+management bond0
+enic 0: streaming 1 fill 1 ip 10.0.49.1 tport  0 cport  0 tgid  0
+enic 1: streaming 1 fill 1 ip 10.0.49.2 tport  0 cport  0 tgid  0
+#enic 2: streaming 1 fill 1 ip 10.9.83.1 tport  0 cport  0 tgid  0
+#enic 3: streaming 1 fill 1 ip 10.9.83.2 tport  0 cport  0 tgid  0
+#enic 4: streaming 1 fill 1 ip 10.9.83.3 tport  0 cport  0 tgid  0
+#enic 5: streaming 1 fill 1 ip 10.9.83.4 tport  0 cport  0 tgid  0
+resilience group ID 1
+allow tcp traffic 1
+allow new L3 remote servers 1
+disks 28
+model UCSC-C240
+
+vault local copy count 1
+vault mirror copies 1
+allow server raid 1
+target server raid data blocks 6
+target server raid parity blocks 2
+allow vault raid 1
+vault raid data blocks 10
+vault raid parity blocks 2
+
+#surge support 1
+

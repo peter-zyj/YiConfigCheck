@@ -1,0 +1,10 @@
+{
+    "bind_addr": "10.94.197.50",
+    "data_dir": "/var/lib/consul",
+    "disable_remote_exec": true,
+    "encrypt": "bEK9Kiq+8rzpnhGkVHj/5A==",
+    "log_level": "INFO",
+    "rejoin_after_leave": true,
+    "server": false,
+    "start_join": [ "10.94.153.41","10.94.153.42","10.94.153.43" ]
+}

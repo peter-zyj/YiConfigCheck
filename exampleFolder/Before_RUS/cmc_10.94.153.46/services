@@ -1,0 +1,7 @@
+firewalld:inactive (dead)
+consul:active (running)
+consul-template:active (running)
+clm:active (running)
+chronyd:active (running)
+dse:is running
+datastax-agent:active (running)

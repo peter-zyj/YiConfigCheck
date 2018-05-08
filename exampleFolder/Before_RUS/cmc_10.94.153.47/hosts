@@ -1,0 +1,4 @@
+# Lines below this one modified by config_network.py
+127.0.0.1		 localhost.localdomain localhost
+10.94.153.47		utah47
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
