@@ -1,5 +1,6 @@
+
 ======
-Usage::
+Usage
 ======
 python3 ConfigCheck_v7.py
 usage: usage: ConfigCheck_v6.py [-s SAMPLE_IP <-cn CONFIG_FOLDER_NAME>] [-sn SERVER_FOLDER_NAME] [-d folder1,folder2] [--version] [-h HELP]
